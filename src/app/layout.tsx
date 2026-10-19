@@ -52,6 +52,12 @@ export default function RootLayout({
             `,
           }}
         />
+        <script
+          async
+          src="https://t-leados.mohsindesigns.com/leados.js"
+          data-site-key="sk_e6570481733df40e954becbace8e22b5fc73"
+          data-collector="https://t-leados.mohsindesigns.com"
+        />
       </head>
       <body className="min-h-full flex flex-col bg-white dark:bg-[#080710] text-black dark:text-white font-sans overflow-x-hidden relative transition-colors duration-300">
         <InteractiveBackground />
